@@ -102,6 +102,7 @@ class WidgetConfigurationBuilder {
         item.type = getTypeFor(configField.getType(), var.type())
         item.label = var.label()
         item.description = var.description()
+        item.required = var.required()
         item.group = var.group()
 
         if (configField.getType() != String && var.type()) {
