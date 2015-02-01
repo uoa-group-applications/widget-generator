@@ -1,6 +1,6 @@
-package nz.ac.auckland.lmzwidget.generator.annotations
+package nz.ac.auckland.lmzwidget.generator.annotations;
 
-import java.lang.annotation.Retention
+import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
